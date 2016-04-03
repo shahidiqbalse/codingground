@@ -12,5 +12,6 @@ print json1["query"]["results"].keys()
 print type(json1["query"]["results"]["quote"])
 print type(json1["query"]["results"]["quote"][0])
 print json1["query"]["results"]["quote"][0].keys
-print json1["query"]["results"]["quote"][0]["Name"]
+for i in range(4):
+    print json1["query"]["results"]["quote"][i]["Name"]
 
